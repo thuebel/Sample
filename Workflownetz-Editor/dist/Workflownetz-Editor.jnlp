@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Workflownetz-Editor.jnlp">
+  <information>
+    <title>Workflownetz-Editor</title>
+    <vendor>Tobias Hübel, 5509840</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Workflownetz-Editor.jar" size="73785" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Workflownetz-Editor" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="workflownetz.editor.WorkflownetzEditor"  name="Workflownetz-Editor" />
+  <update check="always"/>
+</jnlp>

@@ -1,0 +1,11 @@
+
+#leftVBox {
+    -fx-background-color: #99ccff;
+}
+#textArea .content{
+    -fx-border-color: black;
+    -fx-background-color: #99ccff;
+}
+#textArea {
+    -fx-text-fill: darkred;
+}

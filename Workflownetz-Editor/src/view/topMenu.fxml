@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+
+<MenuBar fx:id="topMenu" xmlns="http://javafx.com/javafx/8.0.131" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.TopMenuController">
+  <menus>
+    <Menu mnemonicParsing="false" text="Datei">
+      <items>
+            <MenuItem fx:id="newBtn1" mnemonicParsing="false" onAction="#newTab" text="Neuer Tab" />
+        <MenuItem fx:id="loadBtn" mnemonicParsing="false" onAction="#loadPNML" text="Datei laden" />
+            <MenuItem fx:id="saveBtn" mnemonicParsing="false" onAction="#savePNML" text="Datei speichern" />
+            <MenuItem fx:id="closeBtn" mnemonicParsing="false" onAction="#closeApplication" text="Beenden" />
+      </items>
+    </Menu>
+  </menus>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+</MenuBar>

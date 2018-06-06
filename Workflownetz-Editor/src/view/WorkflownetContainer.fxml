@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.layout.Pane?>
+
+<Tab fx:id="tab" onCloseRequest="#closeTab" text="Untitled Tab" xmlns="http://javafx.com/javafx/8.0.131" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.WorkflownetContainerController">
+   <content>
+      <ScrollPane fx:id="scrollPane" cache="true" cacheHint="SCALE">
+         <content>
+            <Group fx:id="workflownetGroup">
+               <children>
+                  <Pane fx:id="workflownetContentPane" />
+               </children></Group>
+         </content>
+      </ScrollPane>
+   </content>
+</Tab>
